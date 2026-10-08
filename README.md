@@ -6,7 +6,7 @@ An interactive front-end web prototype focused on sustainable tourism, designed 
 The development stage was combined with a research documentation detailing project requirements, methodologies used, user personas, design decisions and evaluations with justifications and future improvements.  
 
 ## Responsibilities 
-For this individual project, I managed the research and documentation stages to define project aims, establish core requirements and to map out the development. I developed the front-end web application to simulate the functions of the calculator and journal entries. 
+For this individual project, I managed the research and documentation stages to define project aims, establish core requirements and to map out the development. I developed the front-end web application to simulate the functions and behaviours of the calculator and journal entries. 
 
 ## Technical Tools
 - Front-end: Responsive design and logic (HTML, CSS & JavaScript).
