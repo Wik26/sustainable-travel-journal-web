@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Journal Entry | GoTravel</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <h1>GoTravel</h1>
+            <nav>
+            <ul class="nav_ul">
+                <li class="nav_li"><a href="index.html" class="nav_a">Home</a></li>
+                <li class="nav_li"><a href="journal.html" class="nav_a">Journal</a></li>
+                <li class="nav_li"><a href="calculator.html" class="nav_a">Calculator</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form id="entry_form" class="form_container">
+            <h2 class="f_h2">Add Travel Entry</h2>
+        
+            <label for="title" class="f_label">Trip Title:</label>
+            <input type="text" id="title" placeholder="Enter Entry Title..." required>
+
+            <label for="location" class="f_label">Location:</label>
+            <input type="text" id="location" placeholder="Enter Place Visited..." required>
+        
+            <label for="description" class="f_label">Description:</label>
+            <textarea id="description" placeholder="Enter Description..." required></textarea>
+
+            <label for="co2" class="f_label">CO2 Emissions (kg)</label>
+            <input type="number" step="0.01" id="co2" placeholder="Enter CO2 Emissions(kg)..." required>
+
+            <button class="formBtn" type="submit">Save Entry</button>
+        </form>
+
+        <div id="entries">
+            <!-- entries -->
+        </div>
+    </main>
+    <footer>
+        <p class="footer_p">2026 GoTravel | Wiktoria Malodobry</p>
+    </footer>
+    <script src="journal.js"></script>
+</body>
+</html>

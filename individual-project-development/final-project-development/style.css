@@ -1,0 +1,231 @@
+/* Basic styles */
+*{
+    margin: 0; /* no blank space between navbar */
+    padding: 0; /* links have no indents */
+    box-sizing: border-box; /* include padding of tags */
+}
+
+body{
+    background-color: #f1f5ff;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh; /* body takes up at least 100% of the view point height */
+    display: flex; /* all the elements of body sit horizontally */
+    flex-direction: column; /* puts the elements into a column */
+}
+
+main{
+    font-size: 15px;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Nav styles */
+header{
+    background-color: #618f61;
+}
+
+.header_container{
+    display: flex; /* title and links are displayed horizontally */
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px;
+    max-width: 1200px; /* header items do not go past width*/
+    margin: 0 auto; /* displays header elements in center with blank space on either side */
+}
+
+.nav_ul{
+    display: flex; /* link elements are aligned horizontally */
+    column-gap: 37px; /* provides gap between each nav elements */
+}
+
+.nav_li{
+    color: #021d02;
+    transition: all 0.3s; /* smooth transition between elements */
+}
+
+.nav_li:hover{
+    color: #3d723d; /* changes colour once hovered over item */
+}
+
+/* home */
+.intro_container {
+  background: #fffdf7;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto 30px auto; /* center form and add blank space between trip list */
+  box-shadow: 0 4px 10px #00000026; /* add shadow to form */
+  border-left: 6px solid #618f61; /* add border style to the side of form  */
+  margin-top: 15px;
+}
+
+.intro {
+  margin: 10px auto 10px;
+}
+
+#totalco2 {
+  color: #0d850d;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+#recent {
+  display: flex;
+  column-gap: 10px;
+}
+
+#recent h3 {
+  font-size: 16px;
+} 
+
+#recent p {
+  margin: 5px 0;
+  color: #414141;
+}
+
+.entry_container {
+  max-width: 310px;
+  background: #fffdf7;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto 30px auto; /* center form and add blank space between trip list */
+  box-shadow: 0 4px 10px #00000026; /* add shadow to form */
+  border-left: 6px solid #618f61; /* add border style to the side of form  */
+  margin-top: 15px;
+}
+
+.recent_entries {
+  text-align: center;
+}
+
+.more{
+  background-color: #618f61;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.s_info, .info_desc{
+  margin-bottom: 11px;
+}
+
+/* footer styles */
+footer{
+    background-color: #618f61;
+    color: #fff;
+    margin-top: auto; /* places as much margin as possible between the footer and content above */
+    text-align: center;
+    padding: 15px;    
+}
+
+/* Form styling */
+.form_container {
+  background: #fffdf7;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px; /* width does not extend past pixels */
+  margin: 0 auto 30px auto; /* center form and add blank space between trip list */
+  box-shadow: 0 4px 10px #00000026; /* add shadow to form */
+  border-left: 6px solid #618f61; /* add border style to the side of form  */
+  margin-top: 15px;
+}
+
+.f_h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.f_label {
+  display: block; /* element displayed as block, no element next to it with added whitespace */
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+  background: #ffffff;
+}
+
+.formBtn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #618f61;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #405f40;
+}
+
+#entries {
+  max-width: 600px;
+  margin: 0 auto; /* centering entry list */
+}
+
+#entries div {
+  background: #fffdf7;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #00000026;
+  border-left: 5px solid #618f61
+}
+
+#entries p {
+  margin: 5px 0;
+  color: #414141;
+}
+
+.disclaimer {
+  margin-top: 15px;
+  font-size: 11px;
+}
+
+#result {
+  font-size: 17px;
+  color: #0d850d;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Delete button */
+.deleteBtn {
+  margin-top: 10px;
+  background: #bc3f31;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.deleteBtn:hover {
+  background: #922b21;
+}
+
+/* References */
+/* Navigataion Bar - ByteGrad. (2023, January 16). Simple Responsive Navbar with HTML & CSS (Flexbox Layout). [Video]. https://www.youtube.com/watch?v=nMuwgcG-8xU
+/* Footer - ByteGrad. (2022, October 1). Sticky Footer in CSS (Best Solution). [Video]. https://www.youtube.com/watch?v=0yaef3KKyGg */
+/* Form - dcode. (2023, September 7). Easy HTML & CSS Cards. [Video]. https://www.youtube.com/watch?v=ZpRy5QJRVB4 */

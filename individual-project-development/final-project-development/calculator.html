@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carbon Footprint Calculator | GoTravel</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <h1>GoTravel</h1>
+            <nav>
+            <ul class="nav_ul">
+                <li class="nav_li"><a href="index.html" class="nav_a">Home</a></li>
+                <li class="nav_li"><a href="journal.html" class="nav_a">Journal</a></li>
+                <li class="nav_li"><a href="calculator.html" class="nav_a">Calculator</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form_container">
+            <h2 class="f_h2">Calculate Carbon Footprint</h2>
+
+            <p id="result"></p>
+            
+            <label for="distance" class="f_label">Distance (km):</label>
+            <input type="number" id="distance" placeholder="Enter Distance Travelled..." required>
+        
+            <label for="transport" class="f_label">Transportation:</label>
+            <select name="transport" id="transport">
+                <option value="car">Car</option>
+                <option value="plane">Plane</option>
+                <option value="train">Train</option>
+            </select>
+
+            <button id="calcBtn" class="formBtn" type="button">Calculate</button>
+
+            <p class="disclaimer"><em>*This calculator provides an estimate of CO2 emissions based on average values. Emissions may vary depending on factors such as vehicle type, number of passagners and travel conditions.</em></p>
+        </div>
+    </main>
+    <footer>
+        <p class="footer_p">2026 GoTravel | Wiktoria Malodobry</p>
+    </footer>
+    <script src="calculator.js"></script>
+</body>
+</html>
