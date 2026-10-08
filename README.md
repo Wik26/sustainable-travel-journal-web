@@ -9,10 +9,10 @@ The development stage was combined with a research documentation detailing proje
 For this individual project, I managed the research and documentation stages to define project aims, establish core requirements and to map out the development. I developed the front-end web application to simulate the functions and behaviours of the calculator and travel journal entries. 
 
 ## Technical Tools
-- Front-end: Responsive design and logic (HTML, CSS & JavaScript).
-- Database: JavaScript LocalStorage for user data storage.
+- **Front-end:** Responsive design and logic (HTML, CSS & JavaScript).
+- **Database:** JavaScript LocalStorage for user data storage.
 
 ## Key Features
-- Dynamic CO2 Calculator: Processes user inputs and displays real-time emission total onto the dashboard.
-- Journal CRD Functionalities: Users can add, view and delete their journals locally within the browser.
-- Responsive Design: Adapts smoothly to user devices and dimensions for an accessible user experience. 
+- **Dynamic CO2 Calculator:** Processes user inputs and displays real-time emission total onto the dashboard.
+- **Journal CRD Functionalities:** Users can add, view and delete their journals locally within the browser.
+- **Responsive Design:** Adapts smoothly to user devices and dimensions for an accessible user experience. 
